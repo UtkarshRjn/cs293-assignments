@@ -1,0 +1,8 @@
+bear
+sell
+stock
+bull
+buy
+bid
+bell
+stop
