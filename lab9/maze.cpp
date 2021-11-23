@@ -12,7 +12,7 @@ Maze::Maze(int rows, int cols){
 }
 
 void Maze::construct_Hgrid(){
-	// cout << "Enter the horizontal grid: " << endl;
+	cout << "Enter the horizontal grid: " << endl;
 	for(int i=0;i<N;i++){
 		for(int j=0;j<M-1;j++){
 			cin >> horizontal_grid[i][j];
@@ -21,7 +21,7 @@ void Maze::construct_Hgrid(){
 }
 
 void Maze::construct_Vgrid(){
-	// cout << "Enter the vertical grid: " << endl;
+	cout << "Enter the vertical grid: " << endl;
 	for(int i=0;i<N-1;i++){
 		for(int j=0;j<M;j++){
 			cin >> vertical_grid[i][j];
@@ -110,9 +110,9 @@ void Maze::find_shortest_path(){
 int main(){
 	
 	int rows,cols;
-	// cout << "Enter Number of Rows(N): ";
+	cout << "Enter Number of Rows(N): ";
 	cin >> rows;
-	// cout << "Enter Number of Columns(M): ";
+	cout << "Enter Number of Columns(M): ";
 	cin >> cols;	
 
 	// Part-1
